@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 
 import com.tedyuen.customviewtest.demo.CountViewActivity;
 import com.tedyuen.customviewtest.demo.MyListViewActivity;
+import com.tedyuen.customviewtest.demo.ProportionImageViewActivity;
 import com.tedyuen.customviewtest.demo.TitleViewActivity;
 
 /**
@@ -46,6 +47,14 @@ public class MainActivityFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(),MyListViewActivity.class));
+            }
+        });
+
+        Button proportionImageView = (Button)view.findViewById(R.id.btn_proportion_image_view);
+        proportionImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ProportionImageViewActivity.class));
             }
         });
 

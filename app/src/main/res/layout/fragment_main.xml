@@ -7,7 +7,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tedyuen.customviewtest.MainActivityFragment"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_count_view"
@@ -26,6 +27,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="继承:列表删除"/>
+
+    <Button
+        android:id="@+id/btn_proportion_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承:比例图片"/>
+
+
 
 
 
