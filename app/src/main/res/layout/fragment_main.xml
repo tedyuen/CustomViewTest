@@ -21,6 +21,12 @@
         android:layout_height="wrap_content"
         android:text="组合:标题栏"/>
 
+    <Button
+        android:id="@+id/btn_my_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承:列表删除"/>
+
 
 
 </LinearLayout>

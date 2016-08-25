@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.tedyuen.customviewtest.demo.CountViewActivity;
+import com.tedyuen.customviewtest.demo.MyListViewActivity;
 import com.tedyuen.customviewtest.demo.TitleViewActivity;
 
 /**
@@ -37,6 +38,14 @@ public class MainActivityFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(),TitleViewActivity.class));
+            }
+        });
+
+        Button myListView = (Button)view.findViewById(R.id.btn_my_list_view);
+        myListView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),MyListViewActivity.class));
             }
         });
 
