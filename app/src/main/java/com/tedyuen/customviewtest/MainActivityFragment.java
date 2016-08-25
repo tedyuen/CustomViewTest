@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.tedyuen.customviewtest.demo.CountViewActivity;
+import com.tedyuen.customviewtest.demo.TitleViewActivity;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -30,6 +31,17 @@ public class MainActivityFragment extends Fragment {
                 startActivity(new Intent(getActivity(),CountViewActivity.class));
             }
         });
+
+        Button titleView = (Button)view.findViewById(R.id.btn_titie_view);
+        titleView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),TitleViewActivity.class));
+            }
+        });
+
+
+
         return view;
     }
 

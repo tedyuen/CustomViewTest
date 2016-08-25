@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".demo.CountViewActivity" android:label="自绘:计数" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".demo.TitleViewActivity" android:label="组合:标题栏" android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
