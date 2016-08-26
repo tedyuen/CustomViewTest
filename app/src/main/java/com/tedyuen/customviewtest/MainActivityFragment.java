@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.tedyuen.customviewtest.demo.CountViewActivity;
+import com.tedyuen.customviewtest.demo.CustomImgContainerActivity;
 import com.tedyuen.customviewtest.demo.MyListViewActivity;
 import com.tedyuen.customviewtest.demo.ProportionImageViewActivity;
 import com.tedyuen.customviewtest.demo.TitleViewActivity;
@@ -57,6 +58,15 @@ public class MainActivityFragment extends Fragment {
                 startActivity(new Intent(getActivity(),ProportionImageViewActivity.class));
             }
         });
+
+        Button customImgContainer = (Button)view.findViewById(R.id.btn_custom_img_container_view);
+        customImgContainer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),CustomImgContainerActivity.class));
+            }
+        });
+
 
 
 

@@ -22,6 +22,7 @@
         <activity android:name=".demo.TitleViewActivity" android:label="组合:标题栏" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".demo.MyListViewActivity" android:label="继承:列表删除" android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".demo.ProportionImageViewActivity" android:label="继承:比例图片" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".demo.CustomImgContainerActivity" android:label="组合:ViewGroup" android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
